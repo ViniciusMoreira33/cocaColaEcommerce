@@ -61,50 +61,6 @@ swiper.on('activeIndexChange', function () {
 
 
 
-// let modalDetails = document.querySelector(".modal-details")
-// let btnDetails = document.querySelector(".btn-details")
-// let closeModal = document.getElementsByClassName("close-modal")[0];
-
-
-
-
-
-// btnDetails.onclick = function() {
-//   modalDetails.style.display = "block";
-// }
-
-// closeModal.onclick = function() {
-//   modalDetails.style.display = "none";
-// }
-
-// window.onclick = function(e) {
-//   if (e.target == modalDetails) {
-//     modalDetails.style.display = "none";
-//   }
-// }
-
-
-
-// let modalNutrients = document.querySelector(".modal-nutrients")
-// let btnNutrients = document.querySelector(".btn-nutrients")
-// let closeModal2 = document.getElementsByClassName("close-modal2")[0];
-
-// btnNutrients.onclick = function() {
-//   modalNutrients.style.display = "block";
-// }
-
-// closeModal2.onclick = function() {
-//   modalNutrients.style.display = "none";
-// }
-
-
-// window.addEventListener("click", function(e) {
-//   if (e.target == modalNutrients) {
-//     modalNutrients.style.display = "none";
-//   }
-// })
-
-
 
 
 
