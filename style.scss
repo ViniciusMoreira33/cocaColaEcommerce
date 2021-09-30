@@ -10,20 +10,15 @@ $original: #fdbb04;
     margin: 0;
     box-sizing: border-box;
     font-family: 'Josefin Sans', sans-serif;
-
-
-
   }
 
   body{
     background: $bg-color;
-
   }
 
   html {
     scroll-behavior: smooth;
   }
-
 
 section {
   width: 100%;
@@ -31,7 +26,6 @@ section {
   margin: 0;
   padding: 0;
 }
-
 
 #snipcart{
   --bgColor-buttonPrimary: #E61A27;
@@ -41,7 +35,6 @@ section {
   --bgColor-buttonPrimary-hover: white;
   --color-buttonPrimary-hover: #E61A27;
   --borderColor-buttonPrimary-hover: #E61A27;
-  
   --bgColor-badge-active: #E61A27;
   --bgColor-badge: #E61A27;
   --color-badge: #f1f1f1;
@@ -52,7 +45,6 @@ section {
   --shadow-input-focus: none;
   --color-link: #E61A27; 
 --borderColor-link: #E61A27; 
-
 --bgColor-modalVeil: #E61A27; 
 
 
@@ -74,7 +66,6 @@ section {
         background-size: cover;
         background-position: right -15rem bottom -37vh;
 
-
         .navbar {
             grid-column: 1/ span 3;
             grid-row: 1/ span 1;
@@ -83,7 +74,6 @@ section {
             display: flex;
             justify-content: center;
             align-items: center;
-
             svg{
                 margin-top: 0.5rem;
             }
@@ -101,14 +91,12 @@ section {
                 font-size: 1.2rem;
                 z-index: 2;
                 transition: all .3s linear;
-
               }
 
               .burger:hover{
                 transform: scale(1.15);
                 color: white;
               }
-
         }
 
           .side-menu {
@@ -168,8 +156,7 @@ section {
                   li a:hover, li a:focus {
                     transform: scale(1.1);
                     color: white;
-                    border-bottom: solid thin #BB0612;
-                    
+                    border-bottom: solid thin #BB0612;                
                   }
             }
         }
@@ -204,8 +191,6 @@ section {
          align-items: center;
          justify-content: center;
 
-
-
          h1{
              color: $light;
              font-weight: 700;
@@ -213,7 +198,6 @@ section {
              font-size: 2.5rem;
              text-align: center;
              max-width: 15ch;
-
          }
 
          button{
@@ -233,7 +217,6 @@ section {
               text-decoration: none;
               transition: all .2s linear;
              }
-
          }
 
          button:hover{
@@ -242,8 +225,6 @@ section {
           background: linear-gradient(90deg, #BB0612 0%, #E61A27 100%);
           color: $light;
          }
-
-
         }
 
 
@@ -258,10 +239,7 @@ section {
          i{
              color: $light;
              margin-bottom: 1rem;
-
          }
-
-
 
          #cart-icon{
           text-align: center;
@@ -274,9 +252,6 @@ section {
           padding-top: 2rem;
           transition: all .3s linear;
           color: $light;
-          
-          // opacity: 0.8; desktop only
-          
 
             #cart-count{
               text-align: center;
@@ -290,9 +265,7 @@ section {
              color: $red-light;
              background-color: $light;
              transform: scale(.8);
-             z-index: -1;
-             
-
+             z-index: -1;        
             }
 
             #cart-price{
@@ -301,21 +274,16 @@ section {
               display: flex;
               justify-content: center;
               align-items: center;
-              padding-top: .7rem;
-          
+              padding-top: .7rem;        
             }
-
-         
          }
 
          #cart-icon:hover{
            cursor: pointer;
            transform: scale(1.1);
-           opacity: 1;
-           
+           opacity: 1;          
          }
      }
-
 
      #arrow-down{
        position: absolute;
@@ -324,7 +292,6 @@ section {
        bottom: .8rem;
        color: $light;
        font-size: 1.2rem;
-
      }
 
      .shake {
@@ -387,27 +354,21 @@ section {
         -webkit-transform: translateY(-3.2px);
                 transform: translateY(-3.2px);
       }
+    }   
     }
-    
-    }
-
-
 
   /*=======================
             about
   =======================*/
-
 
 .about{
   display: grid;
   grid-template-columns: auto 80% auto;
   grid-template-rows: repeat(3, 1fr);
   background: url("./photos/curve.png");
-
   background-repeat: no-repeat;
   background-size: contain 100%;
   background-position: center 60%;
-
 
   .about-title{
     grid-column: 2/ span 1;
@@ -426,19 +387,15 @@ section {
     h4{
       color: $dark;
     }
-
   }
-
 
   .about-feats{
     grid-column: 2/ span 1;
     grid-row: 2 / span 2;
-
     display: flex;
     align-items: center;
     justify-content: space-evenly;
     margin-bottom: 10vh;
-
 
     .about-icons{
        display: flex;
@@ -452,15 +409,12 @@ section {
        background-repeat: no-repeat;
        background-position: center;
 
-
        svg{
         width: 100%;
         height: auto;
         max-width: 192px;
         min-width: 110px;
-
       }
-
 
        i{
         font-size: 1.7rem;
@@ -480,22 +434,13 @@ section {
        color: $light;
        padding: 0.5rem 0 0.5rem 0;
        position: relative;
-
-
        p{
          font-size: 1.1rem;
          margin: 2rem 0 2rem 0;
        }
-
      }
-
-
+   }
   }
-
-
-
-  }
-
 
 
 
@@ -510,51 +455,37 @@ section {
   grid-template-rows: auto 60% auto;
   z-index: 10;
 
-
-
  .store-name{
    z-index: -1;
 position: relative;
 bottom: 89vh;
 left: -5vw;
 
-
-
   h6{
     transform: rotate(-90deg);
     color: $original;
     font-weight:100;
     font-size: 2rem;
-
-
   }
-
  }
-
 
   .swiper-container{
     width: 80vw;
     grid-column: 1/ span 3;
     grid-row: 1/ span 3;
 
-
-
   .swiper-slide{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
     text-align: center;
-
-
 
     #original-title{
      color: $light;
      margin-bottom: .5vh;
      font-size: 2rem;
      margin-top: 15vh;
-
     }
 
     #original-title2{
@@ -564,16 +495,13 @@ left: -5vw;
 
     h4{
       color: rgba(77, 77, 77, 0.466);
-
     }
 
     img{
       width: auto;
       max-height: 55vh;
       margin-top: 1vh;
-
     }
-
 
     .bottom-row{
       display: flex;
@@ -582,8 +510,6 @@ left: -5vw;
       width: 100%;
       margin-top: 5vh;
       margin-bottom: 40px;
-
-
 
       #wrapper {
         width: 40%;
@@ -637,7 +563,6 @@ left: -5vw;
           height: 100%;
           margin: auto;
           cursor: pointer;
-
         }
         &:target {
           visibility: visible;
@@ -655,27 +580,21 @@ left: -5vw;
         z-index: 2;
         max-width: 400px;
   
-
         .content {
           width: 100%;
           height: auto;
           padding: 2rem;
-
 
           li{
             padding-bottom: 5vh;
             color: $light;
           }
         }
-
       }
-
 
      .price{
        margin-bottom: 10vh;
        margin-right: 1rem;
-
-
 
       h2{
         color: $original;
@@ -708,25 +627,18 @@ left: -5vw;
     transform: scale(0.7);
     position: absolute;
     right: -5px;
-
   }
 
   .swiper-button-prev{
     transform: scale(0.7);
     left: -5px;
+   }
   }
-
-  }
-
 
  .colored-font{
    font-style: normal;
-
  }
-
-
 }
-
 
 
 
@@ -744,12 +656,6 @@ left: -5vw;
   background-size: contain;
   background-position: right bottom -40vw;
  
-
-  
-
-
-
-
   .contact-form{
     grid-column: 1 / span 4;
     grid-row: 1/ span 4;
@@ -759,10 +665,7 @@ left: -5vw;
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
-
-
-
-      
+    
     h2{
       color: $light;
       text-align: center;
@@ -770,16 +673,11 @@ left: -5vw;
       width: 100%;
       margin-top: 10vh;
       margin-bottom: 8vh;
-
     }
-
-
-
 
      form{
         padding: 0 8% 0 8%;
         width: 100%;
-
 
         p{
           color: $light;
@@ -796,7 +694,6 @@ left: -5vw;
           background-color: $light;
           margin-bottom: .5rem;
 
-
         }
 
         textarea{
@@ -809,7 +706,6 @@ left: -5vw;
           margin-bottom: .5rem;
         }
 
-
         button{
           background-color: $light;
           border-radius: 3px;
@@ -818,7 +714,6 @@ left: -5vw;
           padding: 0.5rem;
           font-size: 1rem;
           color: $red-light;
-
           transition: all .3s linear;
 
         }
@@ -828,43 +723,13 @@ left: -5vw;
           transform: scale(1.1);
         }
      }
-
-
   }
-
-
-
 
   footer{
     display: none;
-  //  grid-column: 1/ span 4;
-  //  grid-row: 4/ span 1;
-  //  text-align: center;
-  //  font-size: 0.6rem;
-  //  color: $light;
-  //  z-index: 3;
-
-
   }
-
-
-
+ }
 }
-
-
-
-
-
-
-
-}
-
-
-
-
-
-
-
 
 
 
@@ -884,7 +749,6 @@ left: -5vw;
     background-repeat: no-repeat;
     background-size: contain;
     background-position: right 30vw bottom -8vh;
-
 
     .navbar {
         grid-column: 1/ span 3;
@@ -916,7 +780,6 @@ left: -5vw;
             align-items: center;
             justify-content: space-between;
             margin: 1.9rem 5vw 0 0;
-
 
             li{
                 margin-left: 2rem;
@@ -952,8 +815,6 @@ left: -5vw;
      align-items: flex-end;
      justify-content: center;
      margin-right: 5vw;
-
-
 
      h1{
          color: $light;
@@ -991,8 +852,6 @@ left: -5vw;
    background: linear-gradient(90deg, #BB0612 0%, #E61A27 100%);
    color: $light;
   }
-
-
     }
 
 
@@ -1007,10 +866,7 @@ left: -5vw;
       i{
           color: $light;
           margin-bottom: 1rem;
-
       }
-
-
 
       #cart-icon{
        text-align: center;
@@ -1024,8 +880,6 @@ left: -5vw;
        padding-top: 2rem;
        transition: all .3s linear;
        color: $light;
-       // opacity: 0.8; desktop only
-
 
          #cart-count{
            text-align: center;
@@ -1041,7 +895,6 @@ left: -5vw;
           transform: scale(.8);
           z-index: -1;
           
-
          }
 
          #cart-price{
@@ -1051,17 +904,13 @@ left: -5vw;
            justify-content: center;
            align-items: center;
            padding-top: .7rem;
-       
          }
-
-      
       }
 
       #cart-icon:hover{
         cursor: pointer;
         transform: scale(1.1);
-        opacity: 1;
-        
+        opacity: 1;       
       }
   }
 
@@ -1072,7 +921,6 @@ left: -5vw;
     bottom: .8rem;
     color: $light;
     font-size: 1.2rem;
-
   }
 
   .shake {
@@ -1136,28 +984,21 @@ left: -5vw;
               transform: translateY(-3.2px);
     }
   }
-
-
 }
-
-
 
 
   /*=======================
             about
   =======================*/
 
-
   .about{
     display: grid;
     grid-template-columns: auto 80% auto;
     grid-template-rows: repeat(3, 1fr);
-    background: url("./photos/curve.png");
-    
+    background: url("./photos/curve.png");  
     background-repeat: no-repeat;
     background-size: contain 100%;
     background-position: center 60%;
-    
     
     .about-title{
     grid-column: 2/ span 1;
@@ -1177,20 +1018,16 @@ left: -5vw;
     h4{
       color: $dark;
       font-size: 1.3rem;
+    }   
     }
-    
-    }
-    
-    
+      
     .about-feats{
     grid-column: 2/ span 1;
-    grid-row: 2 / span 2;
-    
+    grid-row: 2 / span 2;   
     display: flex;
     align-items: center;
     justify-content: space-evenly;
     margin-bottom: 10vh;
-    
     
     .about-icons{
        display: flex;
@@ -1204,21 +1041,17 @@ left: -5vw;
        background-repeat: no-repeat;
        background-position: center;
     
-    
        svg{
         width: 100%;
         height: auto;
         max-width: 300px;
-        min-width: 110px;
-    
+        min-width: 110px;   
       }
-    
-    
+       
        i{
         font-size: 2.2rem;
         margin: 2rem 0 2rem 0;
-        color: $light
-    
+        color: $light    
       }
     }
     
@@ -1232,20 +1065,13 @@ left: -5vw;
        color: $light;
        padding: 0.5rem 0 0.5rem 0;
        position: relative;
-    
-    
+       
        p{
          font-size: 1.5rem;
          margin: 2rem 0 2rem 0;
-       }
-    
-     }
-    
-    
-    }
-    
-    
-    
+       }   
+     }      
+    }   
     }
   
   
@@ -1261,51 +1087,37 @@ left: -5vw;
     grid-template-rows: auto 60% auto;
     z-index: 10;
   
-  
-  
    .store-name{
      z-index: -1;
   position: relative;
   bottom: 89vh;
   left: -5vw;
   
-  
-  
     h6{
       transform: rotate(-90deg);
       color: $original;
       font-weight:100;
       font-size: 2.3rem;
-  
-  
-    }
-  
+    } 
    }
-  
-  
+   
     .swiper-container{
       width: 80vw;
       grid-column: 1/ span 3;
       grid-row: 1/ span 3;
-  
-  
   
     .swiper-slide{
       display: flex;
       flex-direction: column;
       justify-content: center;
       align-items: center;
-  
       text-align: center;
-  
-  
-  
+   
       #original-title{
        color: $light;
        margin-bottom: .5vh;
        font-size: 3rem;
        margin-top: 15vh;
-  
       }
   
       #original-title2{
@@ -1317,16 +1129,13 @@ left: -5vw;
       h4{
         color: rgba(77, 77, 77, 0.466);
         font-size: 1.2rem;
-  
       }
   
       img{
         width: auto;
         max-height: 55vh;
         margin-top: 1vh;
-  
       }
-  
   
       .bottom-row{
         display: flex;
@@ -1335,8 +1144,6 @@ left: -5vw;
         width: 100%;
         margin-top: 5vh;
         margin-bottom: 40px;
-  
-  
   
         #wrapper {
           width: 40%;
@@ -1390,7 +1197,6 @@ left: -5vw;
             height: 100%;
             margin: auto;
             cursor: pointer;
-  
           }
           &:target {
             visibility: visible;
@@ -1408,30 +1214,22 @@ left: -5vw;
           z-index: 2;
           max-width: 600px;
     
-  
           .content {
             width: 100%;
             height: auto;
             padding: 2rem;
 
-            
-  
-  
             li{
               padding-bottom: 5vh;
               color: $light;
               font-size: 1.5rem;
             }
           }
-  
         }
-  
   
        .price{
          margin-bottom: 10vh;
          margin-right: 1rem;
-  
-  
   
         h2{
           color: $original;
@@ -1456,7 +1254,6 @@ left: -5vw;
           transform: scale(1.15);
         }
        }
-  
       }
     }
   
@@ -1464,28 +1261,20 @@ left: -5vw;
       transform: scale(0.7);
       position: absolute;
       right: -5px;
-  
     }
   
     .swiper-button-prev{
       transform: scale(0.7);
       left: -5px;
     }
-  
     }
-  
   
    .colored-font{
      font-style: normal;
-  
    }
-  
-  
   }
   
-  
-  
-  
+
     /*=======================
             CONTACT
     =======================*/
@@ -1500,12 +1289,6 @@ left: -5vw;
       background-position: right bottom -33vh;
       position: relative;
      
-    
-      
-    
-    
-    
-    
       .contact-form{
         grid-column: 1 / span 4;
         grid-row: 1/ span 4;
@@ -1516,28 +1299,19 @@ left: -5vw;
         align-items: center;
         justify-content: flex-start;
     
-    
-    
-          
         h2{
           color: $light;
           text-align: center;
           font-size: 3rem;
           width: 100%;
           margin-top: 10vh;
-          margin-bottom: 8vh;
-    
+          margin-bottom: 8vh;   
         }
-    
-    
-    
-    
+
          form{
             padding: 0 8% 0 8%;
             width: 620px;
-            
-    
-    
+
             p{
               color: $light;
               margin-bottom: 0.5rem;
@@ -1552,8 +1326,6 @@ left: -5vw;
               outline: none;
               background-color: $light;
               margin-bottom: 1rem;
-    
-    
             }
     
             textarea{
@@ -1566,7 +1338,6 @@ left: -5vw;
               margin-bottom: .5rem;
             }
     
-    
             button{
               background-color: $light;
               border-radius: 3px;
@@ -1575,7 +1346,6 @@ left: -5vw;
               padding: 0.5rem;
               font-size: 1rem;
               color: $red-light;
-    
               transition: all .3s linear;
     
             }
@@ -1585,12 +1355,7 @@ left: -5vw;
               transform: scale(1.1);
             }
          }
-    
-    
       }
-    
-    
-    
     
       footer{
        grid-column: 1/ span 4;
@@ -1604,21 +1369,10 @@ left: -5vw;
        right: 0;
        left: 0;
        background: none;
-    
-    
+
       }
-    
-    
-    
     }
 }
-
-
-
-
-
-
-
 
 
 
@@ -1639,7 +1393,6 @@ left: -5vw;
     background-size: contain;
     background-position: right 45vw bottom -3vh;
 
-
     .navbar {
         grid-column: 1/ span 3;
         grid-row: 1/ span 1;
@@ -1656,7 +1409,6 @@ left: -5vw;
         i, button{
           display: none;
         }
-
     }
 
     .menu{
@@ -1670,7 +1422,6 @@ left: -5vw;
             align-items: center;
             justify-content: space-between;
             margin: 1.9rem 5vw 0 0;
-
 
             li{
                 margin-left: 2.5rem;
@@ -1696,8 +1447,6 @@ left: -5vw;
        }
       }
 
-
-
  .title{
      grid-column: 2/ span 2;
      grid-row: 2/ span 1;
@@ -1707,8 +1456,6 @@ left: -5vw;
      justify-content: center;
      margin-right: 5vw;
 
-
-
      h1{
          color: $light;
          font-weight: 700;
@@ -1716,7 +1463,6 @@ left: -5vw;
          font-size: 4.4rem;
          text-align: end;
          max-width: 15ch;
-
      }
 
      button{
@@ -1745,8 +1491,6 @@ left: -5vw;
    background: linear-gradient(90deg, #BB0612 0%, #E61A27 100%);
    color: $light;
   }
-
-
     }
 
 
@@ -1761,10 +1505,7 @@ left: -5vw;
       i{
           color: $light;
           margin-bottom: 1rem;
-
       }
-
-
 
       #cart-icon{
        text-align: center;
@@ -1779,8 +1520,6 @@ left: -5vw;
        transition: all .3s linear;
        color: $light;
       
-
-
          #cart-count{
            text-align: center;
           position: relative;
@@ -1795,7 +1534,6 @@ left: -5vw;
           transform: scale(.8);
           z-index: -1;
           
-
          }
 
          #cart-price{
@@ -1805,20 +1543,15 @@ left: -5vw;
            justify-content: center;
            align-items: center;
            padding-top: .7rem;
-       
          }
-
-      
       }
 
       #cart-icon:hover{
         cursor: pointer;
         transform: scale(1.1);
         color: white;
-        
       }
   }
-
 
   #arrow-down{
     position: absolute;
@@ -1895,23 +1628,18 @@ left: -5vw;
 }
 
 
-
-
   /*=======================
             about
   =======================*/
-
 
   .about{
     display: grid;
     grid-template-columns: auto 80% auto;
     grid-template-rows: repeat(3, 1fr);
     background: url("./photos/curveLarge.svg");
-    
     background-repeat: no-repeat;
     background-size: contain 100%;
     background-position: center 60%;
-    
     
     .about-title{
     grid-column: 2/ span 1;
@@ -1932,21 +1660,17 @@ left: -5vw;
       color: $dark;
       font-size: 1.4rem;
     }
-    
     }
     
     
     .about-feats{
     grid-column: 2/ span 1;
     grid-row: 2 / span 2;
-    
     display: flex;
     align-items: center;
     justify-content: center;
     margin-bottom: 10vh;
   
-
-    
     .about-icons{
        display: flex;
        flex-direction: column;
@@ -1958,8 +1682,6 @@ left: -5vw;
        background-size: contain;
        background-repeat: no-repeat;
        background-position: center;
-
-    
        position: relative;
        left: 8%;
        max-width: 571px;
@@ -1969,16 +1691,13 @@ left: -5vw;
         height: auto;
         max-width: 400px;
         min-width: 110px;
-    
       }
-    
     
        i{
         font-size: 2.5rem;
         margin: 2rem 0 2rem 0;
         color: $light;
-       
-    
+
       }
     }
     
@@ -1994,21 +1713,12 @@ left: -5vw;
        position: relative;
        right: 8%;
        
-
-
-    
        p{
          font-size: 2rem;
          margin: 2rem 0 2rem 0;
        }
-    
      }
-    
-    
     }
-    
-    
-    
     }
   
   
@@ -2023,58 +1733,44 @@ left: -5vw;
     grid-template-columns: auto 80% auto;
     grid-template-rows: auto 60% auto;
     z-index: 10;
-  
-  
-  
+
    .store-name{
      z-index: -1;
   position: relative;
   bottom: 89vh;
   left: -5vw;
-  
-  
-  
+
     h6{
       transform: rotate(-90deg);
       color: $original;
       font-weight:100;
       font-size: 2.3rem;
-  
-  
-    }
-  
+
+    } 
    }
-  
-  
+
     .swiper-container{
       width: 80vw;
       grid-column: 1/ span 3;
       grid-row: 1/ span 3;
-  
-  
-  
+
     .swiper-slide{
       display: flex;
       flex-direction: column;
       justify-content: center;
       align-items: center;
-  
       text-align: center;
-  
-  
+
       .desk-layout-title{
         display: flex;
         justify-content: space-between;
         align-items: flex-end;
         width: 100%;
 
-
         .h2-desk{
           display: flex;
           justify-content: center;
           align-items: flex-end;
-
-
         }
       }
   
@@ -2082,8 +1778,6 @@ left: -5vw;
        color: $light;
        margin-bottom: .5vh;
        font-size: 3rem;
-
-  
       }
   
       #original-title2{
@@ -2097,16 +1791,13 @@ left: -5vw;
         color: rgba(77, 77, 77, 0.466);
         font-size: 1.5rem;
         margin-bottom: 1rem;
-  
       }
   
       img{
         width: auto;
         max-height: 55vh;
         margin-top: 1vh;
-  
       }
-  
   
       .bottom-row{
         display: flex;
@@ -2115,9 +1806,7 @@ left: -5vw;
         width: 100%;
         margin-top: 5vh;
         margin-bottom: 40px;
-  
-  
-  
+
         #wrapper {
           width: 40%;
           background: none;
@@ -2190,30 +1879,22 @@ left: -5vw;
           z-index: 2;
           max-width: 600px;
     
-  
           .content {
             width: 100%;
             height: auto;
             padding: 2rem;
 
-            
-  
-  
             li{
               padding-bottom: 5vh;
               color: $light;
               font-size: 1.5rem;
             }
           }
-  
         }
-  
   
        .price{
          margin-bottom: 10vh;
          margin-right: 1rem;
-  
-  
   
         h2{
           color: $original;
@@ -2246,28 +1927,21 @@ left: -5vw;
       transform: scale(0.7);
       position: absolute;
       right: -5px;
-  
     }
   
     .swiper-button-prev{
       transform: scale(0.7);
       left: -5px;
     }
-  
     }
-  
   
    .colored-font{
      font-style: normal;
-  
    }
-  
   
   }
   
-  
-  
-  
+
     /*=======================
             CONTACT
     =======================*/
@@ -2284,11 +1958,6 @@ left: -5vw;
       overflow-y: hidden;
       overflow-x: hidden;
     
-      
-    
-    
-    
-    
       .contact-form{
         grid-column: 2 / span 2;
         grid-row: 1/ span 4;
@@ -2299,24 +1968,15 @@ left: -5vw;
         align-items: flex-start;
         justify-content: flex-start;
 
-    
-    
-          
         h2{
           color: $light;
           text-align: center;
           font-size: 3.5rem;
           width: 100%;
-          // margin-top: 10vh;
-          // margin-bottom: 8vh;
           position: absolute;
           left: 0;
           right: 0;
-    
         }
-    
-    
-    
     
          form{
             padding: 0 8% 0 0;
@@ -2328,8 +1988,6 @@ left: -5vw;
             justify-content: center;
             margin-left: 5vw;
 
-    
-    
             p{
               color: $light;
               margin-bottom: 0.5rem;
@@ -2344,8 +2002,7 @@ left: -5vw;
               outline: none;
               background-color: $light;
               margin-bottom: 1rem;
-    
-    
+
             }
     
             textarea{
@@ -2358,7 +2015,6 @@ left: -5vw;
               margin-bottom: .5rem;
             }
     
-    
             button{
               background-color: $light;
               border-radius: 3px;
@@ -2367,7 +2023,6 @@ left: -5vw;
               padding: 0.5rem;
               font-size: 1rem;
               color: $red-light;
-    
               transition: all .3s linear;
     
             }
@@ -2377,13 +2032,9 @@ left: -5vw;
               transform: scale(1.1);
             }
          }
-    
-    
       }
     
-    
-    
-    
+
       footer{
        grid-column: 1/ span 4;
        grid-row: 4/ span 1;
@@ -2397,28 +2048,10 @@ left: -5vw;
        left: 0;
        background: none;
     
-    
       }
-    
-    
-    
+
     }
-
-
-
-
-
-
-
-
-
 }
-
-
-
-
-
-
 
 
 
@@ -2440,7 +2073,6 @@ left: -5vw;
     background-size: contain;
     background-position: right 45vw bottom -3vh;
 
-
     .navbar {
         grid-column: 1/ span 3;
         grid-row: 1/ span 1;
@@ -2457,7 +2089,6 @@ left: -5vw;
         i, button{
           display: none;
         }
-
     }
 
     .menu{
@@ -2471,7 +2102,6 @@ left: -5vw;
             align-items: center;
             justify-content: space-between;
             margin: 2.5rem 3vw 0 0;
-
 
             li{
                 margin-left: 4rem;
@@ -2498,7 +2128,6 @@ left: -5vw;
       }
 
 
-
  .title{
      grid-column: 2/ span 2;
      grid-row: 2/ span 1;
@@ -2508,8 +2137,6 @@ left: -5vw;
      justify-content: center;
      margin-right: 5vw;
 
-
-
      h1{
          color: $light;
          font-weight: 700;
@@ -2517,7 +2144,6 @@ left: -5vw;
          font-size: 6rem;
          text-align: end;
          max-width: 15ch;
-
      }
 
      button{
@@ -2546,8 +2172,6 @@ left: -5vw;
    background: linear-gradient(90deg, #BB0612 0%, #E61A27 100%);
    color: $light;
   }
-
-
     }
 
 
@@ -2562,10 +2186,7 @@ left: -5vw;
       i{
           color: $light;
           margin-bottom: 1rem;
-
       }
-
-
 
       #cart-icon{
        text-align: center;
@@ -2580,9 +2201,6 @@ left: -5vw;
        transition: all .3s linear;
        color: $light;
       
-      
-
-
          #cart-count{
            text-align: center;
           position: relative;
@@ -2597,7 +2215,6 @@ left: -5vw;
           transform: scale(.8);
           z-index: -1;
           
-
          }
 
          #cart-price{
@@ -2609,8 +2226,6 @@ left: -5vw;
            padding-top: .7rem;
        
          }
-
-      
       }
 
       #cart-icon:hover{
@@ -2628,7 +2243,6 @@ left: -5vw;
     bottom: .8rem;
     color: $light;
     font-size: 2rem;
-
   }
 
   .shake {
@@ -2695,23 +2309,18 @@ left: -5vw;
 }
 
 
-
-
   /*=======================
             about
   =======================*/
-
 
   .about{
     display: grid;
     grid-template-columns: auto 80% auto;
     grid-template-rows: repeat(3, 1fr);
     background: url("./photos/curveLarge.svg");
-    
     background-repeat: no-repeat;
     background-size: contain 100%;
     background-position: center 60%;
-    
     
     .about-title{
     grid-column: 2/ span 1;
@@ -2732,21 +2341,17 @@ left: -5vw;
       color: $dark;
       font-size: 1.4rem;
     }
-    
     }
     
     
     .about-feats{
     grid-column: 2/ span 1;
-    grid-row: 2 / span 2;
-    
+    grid-row: 2 / span 2; 
     display: flex;
     align-items: center;
     justify-content: center;
     margin-bottom: 10vh;
   
-
-    
     .about-icons{
        display: flex;
        flex-direction: column;
@@ -2758,8 +2363,6 @@ left: -5vw;
        background-size: contain;
        background-repeat: no-repeat;
        background-position: center;
-
-    
        position: relative;
        left: 8%;
        max-width: 571px;
@@ -2772,13 +2375,11 @@ left: -5vw;
     
       }
     
-    
        i{
         font-size: 3rem;
         margin: 2rem 0 2rem 0;
         color: $light;
-       
-    
+
       }
     }
     
@@ -2793,22 +2394,13 @@ left: -5vw;
        padding: 0.5rem 0 0.5rem 0;
        position: relative;
        right: 8%;
-       
 
-
-    
        p{
          font-size: 2rem;
          margin: 2rem 0 2rem 0;
        }
-    
      }
-    
-    
     }
-    
-    
-    
     }
   
   
@@ -2824,43 +2416,32 @@ left: -5vw;
     grid-template-rows: auto 60% auto;
     z-index: 10;
   
-  
-  
    .store-name{
      z-index: -1;
   position: relative;
   bottom: 89vh;
   left: -5vw;
-  
-  
-  
+
     h6{
       transform: rotate(-90deg);
       color: $original;
       font-weight:100;
       font-size: 3rem;
-  
-  
+
     }
-  
    }
-  
-  
+
     .swiper-container{
       width: 80vw;
       grid-column: 1/ span 3;
       grid-row: 1/ span 3;
-  
-  
-  
+
     .swiper-slide{
       display: flex;
       flex-direction: column;
       justify-content: center;
       align-items: center;
-  
       text-align: center;
-  
   
       .desk-layout-title{
         display: flex;
@@ -2868,13 +2449,10 @@ left: -5vw;
         align-items: flex-end;
         width: 100%;
 
-
         .h2-desk{
           display: flex;
           justify-content: center;
           align-items: flex-end;
-
-
         }
       }
   
@@ -2882,8 +2460,6 @@ left: -5vw;
        color: $light;
        margin-bottom: .5vh;
        font-size: 4.5rem;
-
-  
       }
   
       #original-title2{
@@ -2897,16 +2473,13 @@ left: -5vw;
         color: rgba(77, 77, 77, 0.466);
         font-size: 2.2rem;
         margin-bottom: 1rem;
-  
       }
   
       img{
         width: auto;
         max-height: 55vh;
         margin-top: 1vh;
-  
       }
-  
   
       .bottom-row{
         display: flex;
@@ -2915,8 +2488,6 @@ left: -5vw;
         width: 100%;
         margin-top: 5vh;
         margin-bottom: 40px;
-  
-  
   
         #wrapper {
           width: 40%;
@@ -2971,7 +2542,6 @@ left: -5vw;
             height: 100%;
             margin: auto;
             cursor: pointer;
-  
           }
           &:target {
             visibility: visible;
@@ -2989,15 +2559,11 @@ left: -5vw;
           z-index: 2;
           max-width: 600px;
     
-  
           .content {
             width: 100%;
             height: auto;
             padding: 2rem;
 
-            
-  
-  
             li{
               padding-bottom: 5vh;
               color: $light;
@@ -3007,12 +2573,9 @@ left: -5vw;
   
         }
   
-  
        .price{
          margin-bottom: 10vh;
          margin-right: 1rem;
-  
-  
   
         h2{
           color: $original;
@@ -3045,28 +2608,20 @@ left: -5vw;
       transform: scale(0.7);
       position: absolute;
       right: -5px;
-  
     }
   
     .swiper-button-prev{
       transform: scale(0.7);
       left: -5px;
     }
-  
     }
-  
   
    .colored-font{
      font-style: normal;
-  
    }
-  
-  
   }
   
-  
-  
-  
+
     /*=======================
             CONTACT
     =======================*/
@@ -3082,12 +2637,7 @@ left: -5vw;
       position: relative;
       overflow-y: hidden;
       overflow-x: hidden;
-    
-      
-    
-    
-    
-    
+
       .contact-form{
         grid-column: 2 / span 2;
         grid-row: 1/ span 4;
@@ -3098,24 +2648,15 @@ left: -5vw;
         align-items: flex-start;
         justify-content: flex-start;
 
-    
-    
-          
         h2{
           color: $light;
           text-align: center;
           font-size: 5rem;
           width: 100%;
-          // margin-top: 10vh;
-          // margin-bottom: 8vh;
           position: absolute;
           left: 0;
           right: 0;
-    
         }
-    
-    
-    
     
          form{
             padding: 0 8% 0 0;
@@ -3127,8 +2668,6 @@ left: -5vw;
             justify-content: center;
             margin-left: 5vw;
 
-    
-    
             p{
               color: $light;
               margin-bottom: 0.5rem;
@@ -3144,7 +2683,6 @@ left: -5vw;
               background-color: $light;
               margin-bottom: 1rem;
               height: 3rem;
-    
             }
     
             textarea{
@@ -3159,7 +2697,6 @@ left: -5vw;
               font-size: 2rem;
             }
     
-    
             button{
               background-color: $light;
               border-radius: 5px;
@@ -3168,9 +2705,7 @@ left: -5vw;
               padding: .6rem;
               font-size: 1.8rem;
               color: $red-light;
-    
               transition: all .3s linear;
-    
             }
     
             button:hover{
@@ -3181,9 +2716,6 @@ left: -5vw;
     
     
       }
-    
-    
-    
     
       footer{
        grid-column: 1/ span 4;
@@ -3197,15 +2729,6 @@ left: -5vw;
        right: 0;
        left: 0;
        background: none;
-    
-    
       }
-    
-    
-    
     }
-
-
-
-
 }
